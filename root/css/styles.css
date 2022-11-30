@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.header-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 74px 0;
+}
+.li-header {
+    display: inline;
+    list-style: none;
+    margin: 0px 14px;
+}
+.link-menu {
+    font-size: 13px;
+    color: #242e52;
+    text-decoration: none;
+}
+.link-menu:hover {
+    color: rgba(36, 46, 82, 0.6);
+    cursor: pointer;
+}
+.boton {
+    background-color: #8B48BF;
+    color: #fff;
+    border-style: none;
+    border-radius: 50px;
+}
+.boton:hover {
+    background-color: #fff;
+    color: #8B48BF;
+    cursor: pointer;
+}
+.contact-btn {
+    padding: 13px 41px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.fa-bars {
+    color: #000000;
+    font-size: 60px;
+    text-align: center;
+}
+.slider {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.img-slider, .txt-slider {
+    text-align: center;
+}
+.img-padel {
+    width: auto;
+}
+.heading-slider {
+    font-size: 50px;
+    color: #242e52;
+    text-align: right;
+}
+.p-slider {
+    text-align: right;
+    padding: 28px 0;
+}
+.btn-slider {
+    text-align: right;
+}
+.banner {
+    display: flex;
+    background-color: #8B48BF;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 40px 14%;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-banner {
+    font-size: 36px;
+    color: #fff;
+    padding-right: 50px;
+    width: 100%;
+}
+.p-banner {
+    color: #fff;
+    padding-left: 50px;
+    width: 100%;
+}
+.articles {
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+}
+article {
+    width: 50%;
+    padding: 20px;
+}
+.heading-article {
+    display: flex;
+    align-items: center;
+}
+.article-btn {
+    margin-right: 20px;
+    padding: 10px 25px;
+}
+.text-article {
+    margin-top: 18px;
+    margin-left: 87px;
+    color: #B3B2B7;
+}
+.best {
+    color: #242E53;
+    font-size: 40px;
+    text-align: center;
+    margin: 100px 0;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.card {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.avatar {
+    margin-top: -36px;
+}
+.nombre-player {
+    color: #3F4868;
+    font-size: 16px;
+    margin: 21px 0;
+}
+.datos-player {
+    color: #B9B9C1;
+}
+.btn-players {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 180px;
+}
+.players-btn {
+    background-color: #8B48BF;
+    color: #fff;
+    border-style: none;
+    border-radius: 50px;
+    padding: 13px 51px;
+}
+.players-btn:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+.banner2 {
+    display: flex;
+    background-color: #8B48BF;
+    margin: auto;
+    padding: 64px 14%;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-banner2 {
+    font-size: 36px;
+    color: #fff;
+}
+.banner-btn {
+    background-color: #fff;
+    color: #8B48BF;
+    border-style: none;
+    border-radius: 50px;
+    padding: 13px 51px;
+}
+.banner-btn:hover {
+    cursor: pointer;
+}
+footer {
+    background-color: #1E1E26;
+    display: flex;
+    height: 250px;
+    padding: 60px 160px;
+    justify-content: space-between;
+}
+.fa-brands {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 13px;
+    margin-top: 80px;
+}
+.col1-footer {
+    width: 25%;
+}
+.col2-footer {
+    width: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.li-footer {
+    list-style: none;
+    margin-bottom: 12px;
+}
+.col3-footer {
+    width: 25%;
+    text-align: right;
+}
+.copyright {
+    color: #8C8C94;
+    font-size: 12px;
+    margin-top: 80px;
+}
+#update {
+    padding: 12px;
+    border-radius: 50px;
+    font-size: 13px;
+    border-style: none;
+    margin-right: 9px;
+
+}
+#update::placeholder {
+    color: #A0A0A0;
+}
+.form-btn {
+    padding: 12px 21px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .ocultar {
+      display: none !important;
+    }
+    .slider {
+        flex-direction: column;
+        width: 100%;   
+        padding: 40px;
+    }
+    .img-padel {
+            width: 100%;
+            margin-bottom: 100px;
+    }
+    .banner {
+       display: block;
+       background-color: #3CDDF3;
+       padding: 40px 20px;
+    }
+    .heading-banner, .p-banner {
+        padding: 0;
+    }
+    .heading-banner {
+        margin-bottom: 50px;
+    }
+    .articles {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-left: 34px;
+        margin-top: 65px;
+    }
+    article {
+        width: 100%;
+        padding: 10px;
+    }
+    .heading-article {
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+    }
+    .text-article {
+        margin-left: 0;
+        margin-right: 20px;
+        padding-right: 30px;
+    }
+    .banner2 {
+        background-color: #3CDDF3;
+        display: block;
+        text-align: center;
+    }
+    .banner-btn {
+        background-color: #232C50;
+        color: #fff;
+        margin-top: 50px;
+    }
+    footer {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 40px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .col1-footer, .col2-footer, .col3-footer {
+        width: 100%;
+        text-align: center;
+    }
+    .col1-footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .col2-footer {
+        margin-top: 40px;
+        text-align: left;
+    }
+    #update {
+        width: 70%;
+    }
+    .rrss {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 40px 0px;
+    }
+    .fa-brands {
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .copyright {
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width: 481px) {
+    .hidden {
+      display: none !important;
+    }
+  }
